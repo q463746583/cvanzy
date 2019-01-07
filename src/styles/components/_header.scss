@@ -3,6 +3,7 @@
   background: $redToPurple;
   top: 0;
   width: 100%;
+  border-radius: 0 0 10px 10px;
 }
 
 .header__title {
@@ -13,12 +14,17 @@
 .header__bar {
   align-items: center;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .header__nav {
   color: rgb(102, 34, 102);
   float: left;
+  padding: 10px 60px;
   //float:left;
   text-decoration: none;
+  border-radius: 10px;
+  &:hover {
+    background: #39ee80;
+  }
 }

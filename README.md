@@ -1,2 +1,0 @@
-# cvanzy
-Created with CodeSandbox
